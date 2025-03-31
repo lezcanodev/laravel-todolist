@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg-primary: 240, 243, 246;
+    --bg-secondary: 255, 255, 255;
+    --text-primary: 31, 31, 30;
+
+    /* --bg-primary: 2, 1, 29;
+    --bg-secondary: 44, 35, 77;
+    --text-primary: 240, 243, 246;
+    */
+
+    --primary: 0, 123, 255;
+  }
+
+  .dark{
+    --bg-primary: 52, 121, 224;
+    --text-primary: #dbdbd7;
+  }
+}
